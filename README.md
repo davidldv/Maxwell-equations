@@ -7,11 +7,11 @@
 
 ## 📋 Descripción
 
-Este proyecto implementa simulaciones **FDTD (Finite-Difference Time-Domain)** para resolver las ecuaciones de Maxwell en 1D, 2D y esquemas 3D. Incluye técnicas avanzadas como **PML (Perfectly Matched Layers)** para absorción de fronteras, materiales heterogéneos, y validación física cuantitativa.
+Este proyecto implementa simulaciones **FDTD (Finite-Difference Time-Domain)** para resolver las ecuaciones de Maxwell en 1D y 2D. Incluye técnicas avanzadas como **PML (Perfectly Matched Layers)** para absorción de fronteras, materiales heterogéneos, y validación física cuantitativa.
 
 ### ⚡ Características principales
 
-- **Simulaciones 1D, 2D y 3D** de propagación electromagnética
+- **Simulaciones 1D y 2D** de propagación electromagnética
 - **PML (Perfectly Matched Layers)** para absorción sin reflexiones
 - **Materiales heterogéneos** con diferentes permitividades
 - **Validación física** con medición de velocidad de onda
@@ -51,7 +51,7 @@ pip install numpy matplotlib
 ecuaciones_maxwell/
 ├── README.md                     # Este archivo
 ├── .gitignore                    # Archivos a ignorar en Git
-├── main.py                       # Simulación FDTD 1D con PML
+├── fdtd_1d.py                       # Simulación FDTD 1D con PML
 ├── fdtd_2d_stable.py             # Simulación FDTD 2D estabilizada
 ├── fdtd_2d_validated.py          # FDTD 2D con validación física completa
 ├── fdtd_2d_advanced.py           # FDTD 2D con materiales y monitoreo
@@ -65,7 +65,7 @@ ecuaciones_maxwell/
 ### 1. Simulación básica 1D
 
 ```bash
-python main.py
+python fdtd_1d.py
 ```
 
 **Características:**
@@ -143,6 +143,26 @@ Donde:
 - `m`: orden del perfil (típicamente 2-4)
 
 ## 📊 Ejemplos de resultados
+
+### 🖼️ Galería de simulaciones
+
+#### 1. Simulación FDTD 1D con PML
+![Simulación 1D FDTD](/img/fdtd_1d.jpg)
+*Propagación de pulso gaussiano en 1D mostrando absorción PML. Panel superior: campos electromagnéticos Ez (azul) y Hy×377 (rojo). Panel inferior: perfil de conductividad PML con absorción gradual en los extremos.*
+
+#### 2. Simulación FDTD 2D - Propagación circular
+![Simulación 2D FDTD](/img/fdtd_2d.jpg)
+*Ondas electromagnéticas circulares en modo TM. Visualización del campo Ez con código de colores rojo-azul, perfiles PML en X e Y, y estadísticas en tiempo real del paso temporal y energía del campo.*
+
+#### 3. Validación física completa - Materiales y detectores
+![Validación física FDTD](/img/validacion.jpg)
+*Simulación 2D con materiales heterogéneos (vidrio en gris), 3 detectores para medición de velocidad, monitoreo de energía total, y validación física en tiempo real con comparación teórica.*
+
+#### 4. Análisis cuantitativo de PML
+![Análisis PML](/img/pml.jpg)
+*Comparación directa CON vs SIN PML. Campos finales, mapas de absorción, análisis temporal de reflexiones y métricas cuantitativas de efectividad.*
+
+### 🎯 Resultados cuantitativos
 
 ### Propagación 1D
 - **Velocidad medida:** c₀ = 2.998 × 10⁸ m/s
