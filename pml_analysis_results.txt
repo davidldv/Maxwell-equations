@@ -1,0 +1,14 @@
+ANÁLISIS CUANTITATIVO PML - FDTD 2D
+==================================================
+
+Parámetros de simulación:
+- Malla: 80×60
+- Resolución: 4.0 mm
+- PML: 8 capas, sigma_max = 0.3
+- Frecuencia: 0.5 GHz
+
+Resultados:
+- Coeficiente de reflexión: 1.000000
+- Reducción de energía: 0.00%
+- Factor de mejora: 1.00x
+- Efectividad PML: 0.0%

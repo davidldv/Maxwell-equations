@@ -1,0 +1,8 @@
+VALIDACION CUANTITATIVA PML - FDTD 2D
+==================================================
+
+Coeficiente de reflexion SIN PML: 7942757406916865024.000000
+Coeficiente de reflexion CON PML: 7942757406916865024.000000
+Reduccion de reflexion: 0.00%
+Factor de mejora: 1.00x
+Efectividad PML: -794275740691686490112.0%
