@@ -304,10 +304,6 @@ def advanced_pml_profile(d, delta):
 - **Optimización GPU** con CUDA/OpenCL
 - **Interfaz gráfica** para configuración interactiva
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
-
 ## 👨‍💻 Autor
 
 **David** - [davidldv](https://github.com/davidldv)
@@ -318,16 +314,6 @@ Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 - Desarrolladores de NumPy y Matplotlib
 - Referencias bibliográficas de FDTD clásico
 - Algoritmos PML de Berenger y Gedney
-
----
-
-## 📞 Soporte
-
-¿Preguntas o problemas? 
-
-- 📧 Email: [crear issue en GitHub](../../issues)
-- 📖 Wiki: [Documentación extendida](../../wiki)
-- 💬 Discusiones: [GitHub Discussions](../../discussions)
 
 ---
 
