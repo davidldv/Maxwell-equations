@@ -51,7 +51,7 @@ pip install numpy matplotlib
 ecuaciones_maxwell/
 ├── README.md                     # Este archivo
 ├── .gitignore                    # Archivos a ignorar en Git
-├── fdtd_1d.py                       # Simulación FDTD 1D con PML
+├── fdtd_1d.py                    # Simulación FDTD 1D con PML
 ├── fdtd_2d_stable.py             # Simulación FDTD 2D estabilizada
 ├── fdtd_2d_validated.py          # FDTD 2D con validación física completa
 ├── fdtd_2d_advanced.py           # FDTD 2D con materiales y monitoreo
